@@ -27,7 +27,7 @@ Additional `pf` command for fsdb that allows to investigate in-core (on-disk) st
 		Number: describe inode number to be printed
 		Format: describe particular impelmentation, if not specified the fsck detection used.
 
-#### superblock 	<location=> 	<format=>
+#### superblock 	<location=> 	<format=[ufs1|ufs2]>
 
 		Print superblock with all fields, 
 		Location is optional parameter and specify the potantial copy of sb on the disk
